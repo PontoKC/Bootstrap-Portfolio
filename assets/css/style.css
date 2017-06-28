@@ -61,9 +61,9 @@ footer.container-fluid {
 	float: left;
 }
 
-.solcial {
-	min-width: 50px;
-
+.social {
+	max-width: 70px;
+	text-align: center;
 }
 
 @media screen and (max-width: 720px) {
