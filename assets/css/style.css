@@ -4,7 +4,21 @@ body {
   line-height: 34px;
   color: #777;
   background: url("../pictures/triangular_@2X.png");
+  padding-bottom: 100px;
 }
+
+h3 {
+
+	font-family: Georgia, Times, "Times New Roman", serif;
+  	font-weight: 700;
+  	color: #4aaaa5;
+  	font-size: 22px;
+}
+
+.panel {
+	clear:both;
+}
+
 
 .navbar-header {
 	width: 300px;
@@ -26,23 +40,74 @@ body {
 .navbar-right {
 	margin-top: 25px;
 	font-size: 18px;
+	display: inline-block;
 
 }
 
+.navbar-nav>li {
+	float: none;
+	display: inline-block;
+	text-align: center;
+}
 
-footer {
+ul {
+	text-align: center;
+}
+
+.work {
+  position: relative;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.work h3 {
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+
+}
+
+/*footer {
   padding: 30px 0;
+  clear: both;
   font-size: 12px;
   color: #fff;
   color: #ccc;
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+}*/
+
+.navbar-fixed-bottom {
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  font-size: 12px;
+  padding: 30px 0;
+  margin-top: 20px;
+  clear: both;
 }
 
-footer.container-fluid {
-	margin:0;
-}
 
 #bootover > section:nth-child(3) > div > div > div {
 	padding: 0;
@@ -65,6 +130,47 @@ footer.container-fluid {
 	max-width: 70px;
 	text-align: center;
 }
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px ;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+  margin-left:40px;
+}
+
 
 @media screen and (max-width: 720px) {
 
